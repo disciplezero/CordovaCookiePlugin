@@ -1,0 +1,28 @@
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="org.disciplezero.CordovaCookiePlugin"
+    version="0.1.0">
+
+    <name>CordovaCookiePlugin</name>
+
+    <engines>
+        <engine name="cordova" version=">=6.0.0" />
+    </engines>
+
+    <description> This plugin allows you to save/load cookies automatically for 3rd party sites</description>
+    <author>Christopher Egner - chris+github@syrrax.com</author>
+    <keywords>cookies</keywords>
+
+    <!-- ios -->
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="CordovaCookiePlugin">
+                <param name="ios-package" value="CordovaCookiePlugin"/>
+                <param name="onload" value="true" />
+            </feature>
+        </config-file>
+
+        <header-file src="src/ios/CordovaCookiePlugin.h" />
+        <source-file src="src/ios/CordovaCookiePlugin.m" />
+    </platform>
+</plugin>

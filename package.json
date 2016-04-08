@@ -1,0 +1,35 @@
+{
+  "name": "cordova-plugin-cookie",
+  "version": "0.1.0",
+  "description": "This plugin allows you to save/load cookies automatically for 3rd party sites",
+  "cordova": {
+    "id": "org.disciplezero.CordovaCookiePlugin",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/disciplezero/CordovaCookiePlugin.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cookies"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=6.0.0"
+    }
+  ],
+  "author": {
+    "name": "Christopher Egner",
+    "email": "chris+github@syrrax.com",
+    "url": "http://syrrax.com"
+  },
+  "bugs": {
+    "url": "https://github.com/disciplezero/CordovaCookiePlugin/issues"
+  },
+  "homepage": "https://github.com/disciplezero/CordovaCookiePlugin#readme"
+}
