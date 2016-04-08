@@ -68,3 +68,5 @@
   [[NSUserDefaults standardUserDefaults] setValue:cookieArray forKey:@"cookieArray"];
   [[NSUserDefaults standardUserDefaults] synchronize];
 }
+
+@end
